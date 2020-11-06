@@ -27,7 +27,8 @@ public class Bot {
 
     }
     public void render(SpriteBatch batch) {
-        batch.draw(texture,500,500);
+        batch.draw(texture, x - 10, y - 10, 10, 10, 20, 20, scale, scale, 0, 0, 0, 20, 20, false, false);
+//        batch.draw(texture,500,500);
     }
 
     public void dispose() {
